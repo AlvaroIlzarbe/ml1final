@@ -1,0 +1,462 @@
+Estructura 
+
+-- Pagina Main --
+
+- Historia 
+		Los orígenes de Pokémon están ligados a la infancia de Satoshi Tajiri en Machida, Tokio, donde solía explorar campos y estanques en busca de insectos y pequeños animales como renacuajos y cangrejos. Su objetivo era coleccionarlos, estudiarlos y clasificarlos en un cuaderno que le regalaron sus padres.
+
+Durante su segundo año de secundaria, Tajiri desarrolló un interés por los videojuegos arcade, especialmente después de que abrieran una sala recreativa cerca de su hogar. Este interés continuó mientras estudiaba en el Tokyo College of Technology en los años 1980, frecuentando salones recreativos en los barrios de Shimokitazawa, Shinjuku y Shibuya.
+
+En marzo de 1983, cuando tenía diecisiete años, lanzó la primera edición de una revista dōjinshi llamada Game Freak. El título era una referencia a su fascinación por la película estadounidense Freaks (1932). La revista, escrita a mano por Tajiri, incluía reseñas y guías de videojuegos y tenía un costo de 200 yenes.
+
+En esa época, Tajiri conoció a Tsunekazu Ishihara y al artista de manga Ken Sugimori, quien colaboró en las ilustraciones de ediciones posteriores de Game Freak. La revista dejó de publicarse a finales de esa década.
+
+Con el auge de la consola NES, Tajiri y Sugimori decidieron innovar para esa plataforma. Tajiri transformó Game Freak en una compañía y desarrolló un juego de rompecabezas llamado Mendel Palace (conocido en Japón como Quinty), lanzado en 1989 con buen éxito, marcando el inicio de la historia de la empresa.
+
+Al año siguiente, decidieron crear un juego para Game Boy. Inspirado por el Game Link Cable, Tajiri imaginó un juego donde se pudiera transferir información entre consolas. Influido por sagas como Final Fantasy y Dragon Quest, creó un RPG en el que los monstruos evolucionaban y podían ser transportados.
+
+El proyecto, inicialmente llamado Capsule Monster, fue enviado a Nintendo. Tajiri aportó la idea principal, mientras Sugimori diseñaba los monstruos, y recibieron orientación de Shigeru Miyamoto (creador de Mario Bros.) para mejorar el juego.
+
+La producción tomó cinco años. Durante ese tiempo, la popularidad de Game Boy disminuyó por la falta de nuevos juegos, y Game Freak enfrentaba dificultades económicas. Finalmente, el proyecto fue renombrado como Pocket Monsters y se lanzó en febrero de 1996 con las versiones Aka y Midori ("Red" y "Green"). Aunque al principio tuvo poco éxito, al cabo de un año superó el millón de copias vendidas.
+
+Tras esto, Nintendo decidió llevar la serie al mercado occidental. El nombre fue acortado a Pokémon para evitar conflictos con una serie llamada Monster in My Pocket. Pokémon Red y Blue se convirtieron en un éxito en los Estados Unidos, vendiendo más de 200,000 copias en su primera semana.
+
+
+
+
+- Conceptos importantes en los Pokemon 
+
+		-Los Pokémon son una clase de criaturas inspiradas en animales reales, insectos, objetos, plantas o criaturas mitológicas con un sistema de evolución lamarckiano.
+		-Los jugadores toman el papel Entrenadores Pokémon y tienen tres objetivos generales:
+			- completar la Pokédex mediante la recopilación de todas las especies de Pokémon disponibles que se encuentran
+			- entrenar un equipo de Pokémon poderosos de aquellos que han atrapado para competir contra otros entrenadores
+			- legar a ganar la Liga Pokémon y convertirse en el campeón regional
+		- La temática de coleccionar, entrenar y luchar están presentes en casi todas las versiones de la franquicia Pokémon, incluidos los videojuegos, las series de anime y manga, y el juego de cartas coleccionables Pokémon.
+		- En la saga principal, el jugador emprenderá un viaje en el que deberá recorrer una región específica del mundo Pokémon. En determinadas ciudades existen una serie de poderosos entrenadores, conocidos como Líderes de Gimnasio, que el entrenador debe derrotar para obtener las medallas de gimnasio y poder progresar.
+		- Una vez que se recogen todas las medallas de la región, el entrenador es elegible para desafiar la Liga Pokémon de la región, donde le esperan cuatro de los mejores entrenadores a los que se deberá enfrentar para obtener el título de Campeón.
+		- La saga también tiene arcos argumentales secundarios: En la mayoría de títulos existe un equipo antagonista, una banda cuyos planes están relacionados con el tráfico, la explotación o el maltrato de Pokémon y que el jugador deberá derrotar. Muchos títulos también implican que el jugador pueda desentrañar misterios sobre la existencia de Pokémon legendarios o míticos
+		- Cada generación diferente de los videojuegos de Pokémon tiene la característica de tener un elemento propio llamado mecánica propia, que cambia de generación a generación. 
+	
+
+
+- Elementos representativos generales de los juegos 
+		
+		- La figura del entrenador Pokemon
+			- A los usuarios de los videojuegos se los denomina Entrenador Pokémon. Tienen como meta cumplir dos objetivos (en la mayoría de los juegos de Pokémon):
+			- capturar a todas las especies de pokémon disponibles en la región ficticia en donde se encuentra ambientado el juego, y completar así la información de todos los pokémon en el Pokédex // imagen de la pokedex 
+			- por otro lado, deben entrenarlos y enfrentarlos a otros pokémon pertenecientes a otros entrenadores para demostrar sus habilidades, fortaleza, talento y así convertirse en un Maestro Pokémon.
+			- Para lograrlo, los entrenadores pokémon viajan a lo largo y ancho de las regiones del mundo Pokémon, recolectando medallas de gimnasio, que se obtienen tras derrotar a los respectivos líderes de gimnasio, en una batalla en la que tanto el entrenador como el líder de gimnasio enfrentan a sus pokémon para probar sus habilidades especiales en una batalla Pokémon. // poner imagen de medallas a un lado; al opuesto de de arriba 
+		- Tipos de Pokemon 
+			- Existen 18 tipos en los que se organiza a los pokémon que se han ido introduciendo a lo largo de la historia de los propios juegos 
+				- Los tipos acero y siniestro fueron agregados en el año 2000, en los juegos Gold, Silver y Crystal 
+				- el tipo hada fue agregado el 2013 en los juegos Pokémon X e Y.
+				- Un pseudotipo que se presenta en las ultimas generaciones (Escarlata y Purpura) que es el terastral. Este tipo solamente se encuentra disponible y activo mediante la teracristalización que es la mecánica propia del juego
+			- Cada pokémon tiene una cantidad determinada de movimientos o ataques que puede aprender, la cual va variando de una generación a otra. Estos se pueden clasificar por su tipo o elemento (por ejemplo, el ataque trueno es un ataque tipo eléctrico).
+			-Los pokémon también se ordenan y dividen de esta manera, dándole ventajas o desventajas contra otros. Este fenómeno se le conoce comunmente como la tabla de tipos, una tabla representativa donde encontramos 5 valores:  // poner tabla de tipos 
+				- Inmune --- no se ve afectado por el ataque 
+				- Poco eficaz --- representado con daños de 1/2 y 1/4 ; al valor del daño se le hace la operación correspondiente de multiplicarlo por 1/2 o por un 1/4
+				- Neutro --- representado con un daño de x1; no se aplica ningun calculo extra al daño
+				- Eficaz --- representado por un x2; se le aplica un x2 al daño que hace el ataque 
+				- Supereficaz --- representado por un x2; se le aplica un x2 al daño que hace el ataque 
+			- Estos valores que aparecen en la tabla de operaciones, son las denominadas debilidades o resistencias; si un pokemon es debil frente a un determinado ataque recibe más daño (x2 o x4 dependiendo de si es mas daño o mucho mas daño) y su un pokemon es fuerte a un determinado ataque recibe menos daño (1/2 o un 1/4 dependiendo de cuanto sea su nivel de resistencia)
+
+- Pokemon Inicial 
+
+			- Uno de los aspectos constantes de los videojuegos de Pokémon desde sus inicios es que al iniciarse el juego, los jugadores reciben su primer pokémon como regalo del Profesor Local (esto depende de la región en donde este ambientado el juego), un personaje experto en pokémon
+			- Carrusel con los profesores generacionales y el nombre debajo/arriba 
+			- Los entrenadores reciben un pokémon inicial o principiante para poder comenzar con su trayecto en el juego. La cantidad establecida de pokémon iniciales es de tres, de los cuales los entrenadores pueden elegir uno solo. Siempre son de los tipo agua, tipo fuego y tipo hierba. (un Pokémon por tipo)
+			- Carrusel con los starters de todas las generaciones con su correspondiente numero generacional 
+			- Otro aspecto constante es que el rival del jugador, un personaje que también se hace entrenador a la vez que el jugador, elegirá siempre a un pokémon que tenga ventaja sobre el del protagonista, exceptuando las generaciones 7 y 8 donde eligen el que tienen desventaja 
+			- Carrusel con los rivales de Pokemon 
+			- En otros juegos de la franquicia que no corresponden con la sagas principales, entendiendo saga principal como los juegos generacionales que se indicarán posteriormente, la eleccion de los pokemon iniciales es diferente y jugaron con diferentes estilos y opciones 
+
+
+- Pokedex
+			- Es un dispositivo electrónico que interviene en los videojuegos y la serie de anime. En los juegos, su función es registrar los datos de un pokémon. En el manga y el anime, el Pokédex es una enciclopedia electrónica, la cual proporciona al entrenador información sobre un pokémon que es desconocido con tan solo exponer el pokédex en frente del pokémon. 
+			- En los videojuegos un entrenador recibe una pokédex en blanco al iniciar su recorrido. El objetivo es completar la información de todos los pokémon disponibles en la región en donde se encuentre. El entrenador recibirá el nombre y la imagen del pokémon que haya sido encontrado. 
+			- En Pokémon Red y Blue, el pokédex registra la información de cada pokémon con tan solo verlo. La información más detallada de un pokémon se encuentra disponible después de que el entrenador haya capturado a un pokémon salvaje. Esta información incluye tipo, altura, peso, técnicas, y una descripción breve del pokémon. Las versiones actuales del pokédex contienen toda la información de los pokémon conocidos. 
+			- En los juegos de GameCube, Pokémon Colosseum y Pokémon XD: Gale of Darkness, se utiliza el Pokémon Digital Assistant (PDA), que es similar al pokédex.
+			- En la región de Alola, la pokédex es distinta al resto de regiones, pues esta queda implantada en un Rotom, un Pokémon que tiene la cualidad de meterse en electrodomésticos y en otros objetos electrónicos. Esta Pokédex cuenta con lo último en tecnología punta de la región, pues no solo se delimita a registrar entradas de los nuevos Pokémon, también es capaz de comunicarse e interactuar con el jugador, hacer fotos con ella o actuar como mapa para mostrar el punto exacto en el que el jugador se encuentra. // foto de la rotom dex 
+
+- Serie 
+
+	- es un anime metaserial creado por Satoshi Tajiri, Junichi Masuda y Ken Sugimori que narra la historia de Ash Ketchum, un joven entrenador Pokémon de Pueblo Paleta que comienza un viaje para alcanzar su sueño, ser un Maestro Pokémon.
+	- La serie está basada en la saga de videojuegos de Pokémon también creada por Satoshi Tajiri, desarrollada por Game Freak y distribuida por Nintendo, que aparecieron por primera vez en el mercado japonés el 27 de febrero de 1996.
+	- El éxito de los videojuegos que aún se mantiene hasta estos días, hizo que su trama fuera adaptada en un anime producido por los estudios de animación OLM, Inc., el cual es emitido por la cadena de televisión TV Tokyo desde que se estrenó el 1 de abril de 1997
+	- En la producion del anime encontramos que tenemos una lista de 27 temporadas, cada uno con una amplia serie de episodios que llegan a sumar mas de 1300: // poner un carusel de las imagenes de portada de las series y que al pinchar se giren y salga el numero de capitulos que tiene cada temporada --> mirar aqui: https://www.wikidex.net/wiki/Lista_de_episodios
+	- Estas temporadas tratan la historia de su personaje principal que es Ash Ketchum, un joven entrenador cuyo sueño es convertirse en Maestro Pokémon. Acompañado por su inseparable Pikachu y amigos como Misty y Brock, viaja por distintas regiones enfrentándose a Líderes de Gimnasio, participando en torneos y enfrentando a villanos como el Equipo Rocket. En su travesía, Ash captura y entrena Pokémon mientras explora un mundo lleno de criaturas fantásticas, desafíos y enseñanzas sobre la amistad, la perseverancia y el trabajo en equipo. La serie combina acción, humor y lecciones de vida en un viaje continuo para alcanzar sus metas.
+	- En 2023, se estrenó una nueva serie llamada Horizontes Pokémon, que presenta a nuevos protagonistas de la serie, como Liko y Roy.
+	- OLM, Inc. ha producido hasta el momento 23 películas// poner imagenes de todas las peliculas --> tabla con la imagen de la peli, el nombre de la peli y la fecha de estreno (por paises y zonas) --> mirar aqui: https://www.wikidex.net/wiki/Películas
+	- Junto a esta lista de peliculas podemos encontrar tambien varias miniseries especiales (también llamadas OVA) como Pokémon Origins, Pokémon: Mega Evolution Special y Pokémon Generations; también un spin-off llamado Crónicas Pokémon (Pokémon Chronicles), una serie de historias en las que están involucrados personajes secundarios de la serie.
+	- Otras piezas de merchandising incluyen a un conjunto de mangas y novelas ligeras basadas en el anime y sus películas, videojuegos, tazos y cromos de colección desarrollados por distintas empresas.
+	- Personajes: 
+		- Principales: 
+			- Ash Ketchum -- Protagonista de la serie y las peliculas // primera aparicion: primer capitulo primera temporada // actor doblaje en español: Adolfo Moreno // aficiones: combates pokemon 
+			- Pikachu -- compañero pokemon de Ash, siendo su inicial // primera aparicion: primer capitulo primera temporada // actor doblaje: Ikue Ōtani // aficiones:  el ketchup
+			- Liko -- protagonista femenina de la serie Horizontes // primera aparicion: episodio 1222 en la 26º temporada //actor doblaje español: Inés Alba //aficiones: exploración
+			- Rod -- protagonista masculino de la serie Horizontes // primera aparicion: episodio 1224 en la 26ª temporada //actor doblaje español: Carlos Larios//aficiones: la mitología pokemon 
+			- Jessie -- integrante femenina del team rocket y antagoniste del anime // primera aparicion: segundo episodio de la primera temporada // atora doblaje español: Amparo valencia // aficiones: concursos pokemon 
+			- James --  intengrante masculino del team rocket y antagonista del anime // primera aparicion: segundo episodio de la primera temporada // actor doblaje español: Iván Jara // Aficiones: coleccionar chapas de botella 
+			- Meowth -- integrante pokemon del team rocket y antagonista del anime // primera aparicion: segundo episodio de la primera temporada // actor doblaje español: José Escobosa // aficiones: hablar con humanos y hacer inventos
+		- Secundarios
+			- Misty -- compañera de aventura de Ash entre las temporadas 1 y 5 // primera aparicion: primer episodio de la primera temporada // asctor doblaje español: Miriam Valencia// aficiones: la pesca 
+			- Brock -- compañero de aventuras de ASh entre las temporadas 1 y 13 // primera aparicion: quinto episodio de la primera temporada // actor doblaje español: //aficiones: la cocina 
+			- Aura -- compañera de aventuras de ASh entre las temporadas 6 y 9 // primera aparicion: capitulo 1 de la temporada 6 // actor doblaje español: Cristina Yuste // aficiones: concursos de belleza de pokemon 
+			- Maya -- compañera de aventuras de ASh entre las temporadas 10 y 13// primera aparicion: capitulo 1 de la temporada 10 // actor doblaje español: Mar Bordallo // aficiones: concursos de belleza de pokemon 
+			- Cynthia -- compañera en las aventuras, a lo largo de las temporadas de forma puntual// primera aparicion: 35 de la temporada 10 // actor doblaje español: // aficiones: Arqueología, mitología y el piano
+			- Serena -- compañera femenina de Ash entre las temporadas 17 y 19 // primera aparicion: primer capitulo temporada 17 // actor doblaje español: Isacha Mengíbar // aficiones: Equitacion 
+			- Lem -- compañero masculino de Ash entre las temporadas 17 y 19 // primera aparicion: primer capitulo temporada 17 : // actor doblaje español: // aficiones: inventos
+
+
+- Manga 
+	- Existe una gran cantidad de series Pokémon en manga. Los mangas suelen ser lanzados en Japón por Shōgakukan, y son traducidos al inglés en Norteamérica principalmente por VIZ Media y en los países asiáticos por Chuang Yi.
+	- Hasta la fecha se fueron presentando más de 13 sagas de Pokémon. Algunos de estos mangas se basan en el anime, y las películas, mientras que otros son adaptaciones de los juegos y del Juego de Cartas Coleccionables Pokémon
+	- Imagenes de los mangas 
+
+- Videojuegos
+
+	- Dentro de los videojuegos de Pokemon, encontramos 3 grupos a diferenciar: 
+		- El primero de estos son los juegos de la saga principal. Estos juegos son aquellos que hacen el denominado "cambio generacional". Este cambio generacional es una especie de "evento" que se lleva a cabo una vez cada 3 años aproximadamente y suele intentar coincidir con la salida de la nueva consola de nintendo. Los juegos son los siguientes: 
+			-- Juegos de la saga principal // vamos a poner un pack de 3x3 imagenes siendo cada una de estas una imagen referenciada a la pagina hecha con bootstrap donde se desglosara todo mas detenidamente / cada imagen es la caratula del juego y redirecciona (investigar como hacerlo llamativo o poner un CTA para que se pinche) 
+				- Primera generacion 
+				- Segunda generacion 
+				- Tercera generacion 
+				- Cuarta generacion 
+				- Quinta generacion 
+				- Sexta generacion 
+				- Septima generacion 
+				- Octava generacion 
+				- Novena generacion 
+		- El segundo de estos grupos son los juegos oficiales secundarios. Estos juegos son historias secundarias que se encuentran ambientadas en el mundo de Pokémon pero no son juegos principales como tal. Existe una amplia variedad de tipos, desde aquellos en los que tienes que atrapar a los P´kémon haciendo circulos de luz con una maquina (Pokémon Ranger) o en los que los atrapas jugando al Pin-ball (Pokemon Pinball) // alguna imagen o algo que redireccione a la pagina de juegos oficiales no principales 
+		- El tercer grupo son los juegos no oficiales creados por fans. Estos reciben el título de fangames o hackrooms, dependiendo de lo que hagan. Existe una amplia variedad de juegos dentro de este grupo // alguna imagen o algo que redireccione a la pagina de fangames
+
+- juegos de cartas 
+
+	- EL juego de cartas coleccionable o abreviado a como se le conoce comunmente, TCG (las siglas en inglés), es un juego que ha sido desarrollado Por Pokemon y Nintendo. 
+	- Fue lanzado el 20 de octubre de 1996 en Japon por Media Factory 
+	- Actualmente existen un total aproximado de 13.605 cartas contando con todas las expansiones que se han ido sacando a lo largo de los años 
+	- Reglas basicas: 
+		- Dos jugadores se enffrentan con un mazo de 60 cartas 
+		- Existen 4 tipos de cartas: Pokemon, energías, objetos, entrenadores
+		- Cada jugador empieza la partida con 7 cartas en la mano. Si no se tiene un Pokemon basico (primera forma de la línea evolutiva) se introducen las cartas en el mazo, se baraja y se vuelve a robar 7 cartas (cada vez que se hace esto el rival roba 1 carta adicional)  
+		- Tras colocar el pokemon en el tablero (llamandose esto pokemon activo) se colocan 6 cartas de "premio" 
+		- Cada vez que un Pokemon es debilitado (su contador de PV o vida baja a cero) se toma una de estas cartas "premio" 
+		- El primero en conseguir esas 6 cartas gana 
+	- Videos de partidas de TCG 
+
+
+
+-- Pagina CSS -- Fangames
+
+	- que son -- Los fangames son juegos no oficiales de Pokemon creados por Fans y para fans sin nigún  tipo de aniomo de lucro. Estos juegos suelen estar creados usando el programa RPG maker, que permite poder introducir, crear o modificar imagenes y o estilos existentes de Pokemon, ya sean propios de las generaciones que dispone el propio programa, modificaciones de otros usuarios o imagenes hechas por uno mismo. Estos juegos suelen aprovechar la creatividad de los fans para ofrecer experiencias únicas, con nuevas regiones, historias, mecánicas de juego, y Pokémon originales (o existentes)
+	- diferentes tipos de juegos de fangame, roguelike y tal (poner esto como una lista enumerada) 
+		- RPG Tradicional 
+			- Caracteristicas: Se inspiran en las bases tradicionales de como se hacen los juegos principales, con sistema de exploración gimnasios, entrenadores y captura de Pokemon 
+			- Ejemplos: Pokemon Uranium o Pokemon Añil 
+			- Enfoque: Crean una experiencia nueva pero fiel a los originales
+		- Roguelike 
+			- Caracteristicas: Género en el cual el jugador atraviesa una serie de mazmorras generadas de manera aleatoria, luchando contra Pokemon, encontrando objetos y gestionando los recursos 
+			- Ejemplos: Pokemon Reminiscencia 
+			- Enfoque: Dificultad elevada, diseño repetible y partidas rápidas. El desafío se basa en tomar decisiones estratégicas y adaptarse a lo impredecible.
+		- HackRooms 
+			- Características: Se basan en modificar ROMs oficiales de los juegos de Pokemon para añadir nuevas historias, más dificultad, regiones, desafios... 
+			- Ejemplos: Pokemon Light Platinum, Pokémon Radical RED 
+			- Enfoque: Aprovechar la base sólida de los juegos originales mientras se expande con nuevas ideas o mejoras (como aumentar la dificultad, gráficos mejorados, y más).
+		- MMORPG 
+			- Caracteristicas: Tipo de juegos que permiten poder conectar a jugadores de todo el mundo, llevando a cabo diferentes tipos de eventos 
+			- Ejemplos: Pokémon MMO 3D.
+			- Enfoque: Experiencias sociales, creando un mundo Pokémon en línea donde los jugadores pueden colaborar o competir.
+		- Survival 
+			- Caracteristicas: Se centra en sobrevivir en un mundo Pokémon peligroso, enfrentando retos de exploración, gestión de recursos y combate intenso.
+			- Ejemplos: Pokémon Reborn
+			- Enfoque: Crear una atmósfera más madura o realista, donde las decisiones son más significativas y el entorno es más hostil
+		- Fusión o Cruce de Géneros
+			- Caracteristicas: Combinan elementos de Pokémon con mecánicas de otros géneros, como plataformas, estrategia en tiempo real o deck-building
+			- Ejemplos: Pokémon Infinite Fusion (mezcla de Pokémon), Pokémon Conquest-like (estrategia)
+			- Enfoque: Innovar al mezclar conceptos de Pokémon con otros estilos de juego, ofreciendo algo completamente distinto.
+
+
+	- Aspectos comunes en los fangames de Pokemon: 
+		- Mecanicas nuevas: Aquí podemos distinguir entre crear nuevas megaevoluciones (tematica implementada en los juegos oficiales) o añadir nuevas megaevoluciones; creacion e implementacion de formas regionales o fakemons (pokemon creados por fans); sistema de habilidades propias 
+		- Graficos personalizados: existe la posibilidad de usar tanto graficos en pixel Art como en graficos 3D, dependiendo del gusto o la facilidad del grupo de creación del propio juego 	
+		- Diferentes niveles de dificultad: Existe la posibilidad de ajustar la dificultad al inicio de la partida de forma manual, para dar mayor o menor nivel de dificultad a esta 
+		- Comunidades activas propias: El desarrollo de estos juegos se hace dentro de comunidades propias en las cuales se retroalimentan y ayudan a conseguir mejorar sus propios juegos 
+
+	- Ejemplos de Fangames : 
+		- Pokemon Umbrekable Ties 
+			- Descripción: Tres amigos de la infancia siempre han querido ser maestros Pokemon. Cuando cumplis los 17 años, decidis ponerlos con la mochila a la espalda y empezar a cumplir con ese sueño, decidiendo viajar por toda la región de Akebia. Gracias a la ayuda de la misteriosa profesora Álama conseguis vuestros pokemon iniciales para desafiar a los líderes de gimnasio mientras que intentas escapar de las manos de la Familia Real. Desentraña estos secretos en una apasionante historia, llena de personajes únicos y del mejor maestro Pokémon, EL GRAN RODOLFO 
+			- Catracteristicas principales: 
+				- Sistema de gimnasios
+				- Actualizacion hasta la novena generación 
+				- Sprites animados 
+				- Historia no lineaol dividida en Arcos 
+				- Protagonista multiple
+				- Logros/Misiones secundarias 
+				- Acompañamiento de tu Pokemon durante la aventura 
+				- Historias y escenas elaboradas
+				- Sistema de ganancia de EXP y LevelCap
+				- Botiquin 
+				- Sistema día-noche 
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+			- Video trailer 
+		- Pokemon Panteon 
+			- Descripción: En la antigua región de Olimpia, el protagonista se embarca en una fascinante aventura bajo la guía del profesor y filósofo Palmiro. Su misión es superar los desafíos de los líderes de las Ágoras, desentrañar sus enigmas y enfrentarse a los estudiantes de la prestigiosa Academia Platena. A lo largo de su viaje, se encontrará con sus rivales de siempre, Lira y Aulo, en una épica travesía llena de retos y descubrimientos.
+			- Catracteristicas principales: 
+				- Una aventura llena de misterios, mitos y leyendas.
+				- Sistema de quest secundarias 
+				- Nuevas formas regionales de Pokemon 
+				- Nuevos personajes
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+			- Video trailer 
+		- Pokemon Shards 
+			- Descripción: 
+En la región de Tenebria, humanos, Pokémon y elfos convivieron en conflicto, lo que desató una guerra de doce años. Los Caballeros Dorados, liderados por un humano y su Pokémon, pusieron fin a la lucha utilizando la magia de un legendario Pokémon para crear un nuevo orden. Para proteger su poder, sellaron su energía en cámaras ocultas al oeste de la región. Siglos después, una nueva amenaza pone en peligro la paz, y el protagonista deberá detenerla mientras persigue su sueño de obtener las medallas de Tenebria. 
+			- Catracteristicas principales: 
+				- Sistema tradicional de lideres de gimnasio 
+				- Nuevas formas regionales y fakemons 
+				- Amplio nivel de dificultad 
+				- Sprites Animados 
+				- Sistema día y noche 
+				- Mecanicas actualizadas hasta 9º generación 
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+
+
+
+-- Pagina Bootstrap -- Juegos de la Saga 
+
+Los videojuegos de la saga principal de Pokémon son títulos RPG en los que el jugador asume el rol de un entrenador Pokémon. Su objetivo principal es capturar Pokémon, derrotar a los líderes de gimnasio, completar la Pokédex y convertirse en el Campeón de la Liga Pokémon. Cada generación introduce una nueva región, Pokémon exclusivos, mecánicas innovadoras y evolución en gráficos y jugabilidad.
+	- diferentes generaciones --> -- nombre de la region -- numero de pokemon que tienen -- si tienen algo nuevo -- consola -- año de salida 
+				- Primera generacion 
+					Región: Kanto
+					Nº de Pokémon: 151
+					Novedades: Introducción de los Pokémon y el concepto de tipos y combates básicos.
+					Consola: Game Boy
+					Año de salida: 1996 (Japón), 1998 (Internacional)
+				- Segunda generacion 
+					Región: Johto
+					Nº de Pokémon: 100 (Total: 251)
+					Novedades: Sistema de día y noche, cría de Pokémon, nuevos tipos (Siniestro y Acero), género de los Pokémon.
+					Consola: Game Boy Color
+					Año de salida: 1999 (Japón), 2000 (Internacional)
+				- Tercera generacion 
+					Región: Hoenn
+					Nº de Pokémon: 135 (Total: 386)
+					Novedades: Naturalezas, habilidades, batallas dobles, concurso Pokémon.
+					Consola: Game Boy Advance
+					Año de salida: 2002 (Japón), 2003 (Internacional
+				- Cuarta generacion 
+					Región: Sinnoh
+					Nº de Pokémon: 107 (Total: 493)
+					Novedades: Conexión Wi-Fi para combates e intercambios, separación de movimientos físicos y especiales.
+					Consola: Nintendo DS
+					Año de salida: 2006 (Japón), 2007 (Internacional)
+				- Quinta generacion 
+					Región: Teselia (Unova)
+					Nº de Pokémon: 156 (Total: 649)
+					Novedades: Animaciones completas en combates, ciclo completo de historia antes de incluir Pokémon de generaciones anteriores.
+					Consola: Nintendo DS
+					Año de salida: 2010 (Japón), 2011 (Internacional)
+				- Sexta generacion 
+					Región: Kalos
+					Nº de Pokémon: 72 (Total: 721)
+					Novedades: Gráficos 3D, Megaevoluciones, tipo Hada.
+					Consola: Nintendo 3DS
+					Año de salida: 2013
+				- Septima generacion 
+					Región: Alola
+					Nº de Pokémon: 88 (Total: 809)
+					Novedades: Formas regionales, movimientos Z, eliminación de gimnasios tradicionales, exploración más libre.
+					Consola: Nintendo 3DS
+					Año de salida: 2016
+				- Octava generacion 
+					Región: Galar
+					Nº de Pokémon: 96 (Total: 905)
+					Novedades: Dinamax y Gigamax, Área Silvestre (mapa abierto), pase de expansión con contenido adicional.
+					Consola: Nintendo Switch
+					Año de salida: 2019
+				- Novena generacion 
+
+					Región: Paldea
+					Nº de Pokémon: 103 (Total: 1008)
+					Novedades: Mundo completamente abierto, Teracristalización, regreso de la Liga Pokémon tradicional.
+					Consola: Nintendo Switch
+					Año de salida: 2022
+
+
+	- juegos oficiales que no son de la saga principal (estilo batel stadium)
+		- en que consisten 	
+		Pokémon Colosseum
+Año de salida: 2003
+Generación: Tercera
+Consola: Nintendo GameCube
+Novedades/Características: Primer juego de Pokémon en 3D con batallas dobles como estándar. Introduce Pokémon Oscuros y su purificación.
+Resumen: En la región de Orre, un exmiembro del Team Snagem se une a una joven para purificar Pokémon Oscuros capturados por la malvada organización Cipher.
+
+Pokémon XD: Gale of Darkness
+Año de salida: 2005
+Generación: Tercera
+Consola: Nintendo GameCube
+Novedades/Características: Secuela de Colosseum, con purificación mejorada y narrativa más profunda.
+Resumen: Cinco años después de Colosseum, Cipher regresa con Lugia Oscuro, y un joven héroe debe detener sus planes y purificar a los Pokémon corruptos.
+
+Pokémon Mystery Dungeon: Blue Rescue Team & Red Rescue Team
+Año de salida: 2005
+Generación: Tercera
+Consola: Nintendo DS (Blue), Game Boy Advance (Red)
+Novedades/Características: Sistema roguelike donde controlas Pokémon en mazmorras.
+Resumen: Un humano transformado en Pokémon lidera un equipo de rescate, explorando mazmorras y descubriendo cómo revertir su transformación.
+
+Pokémon Mystery Dungeon: Explorers of Time, Darkness & Sky
+Año de salida: 2007-2009
+Generación: Cuarta
+Consola: Nintendo DS
+Novedades/Características: Expande narrativa y mecánicas con una historia más compleja.
+Resumen: Junto a tu compañero, exploras mazmorras para proteger el mundo de un colapso temporal y enfrentarte a un traicionero futuro.
+
+Pokémon Mystery Dungeon: Gates to Infinity
+Año de salida: 2012
+Generación: Quinta
+Consola: Nintendo 3DS
+Novedades/Características: Primer juego en 3D con enfoque en construcción comunitaria.
+Resumen: Construyes un paraíso Pokémon mientras enfrentas una amenaza que pone en peligro la paz del mundo Pokémon.
+
+Pokémon Mystery Dungeon: Super Mystery Dungeon
+Año de salida: 2015
+Generación: Sexta
+Consola: Nintendo 3DS
+Novedades/Características: Amplía contenido a todos los Pokémon hasta la Sexta Generación.
+Resumen: Investigas petrificaciones misteriosas mientras formas alianzas con legendarios para salvar el mundo.
+
+Pokémon Ranger
+Año de salida: 2006
+Generación: Cuarta
+Consola: Nintendo DS
+Novedades/Características: Capturador como nueva mecánica para resolver problemas temporales con Pokémon.
+Resumen: Como un Ranger en Fiore, trabajas para detener al Team Go-Rock y proteger la armonía entre humanos y Pokémon.
+
+Pokémon Ranger: Shadows of Almia
+Año de salida: 2008
+Generación: Cuarta
+Consola: Nintendo DS
+Novedades/Características: Historia ampliada y misiones secundarias opcionales.
+Resumen: Enfrentas a una corporación que utiliza Pokémon para sus fines oscuros, salvando la región de Almia de su control.
+
+Pokémon Ranger: Guardian Signs
+Año de salida: 2010
+Generación: Cuarta
+Consola: Nintendo DS
+Novedades/Características: Introduce señales de guardián para invocar Pokémon legendarios.
+Resumen: Proteges la región de Oblivia de un grupo villano que busca controlar Pokémon legendarios para sus planes.
+
+Pokémon Snap
+Año de salida: 1999
+Generación: Primera
+Consola: Nintendo 64
+Novedades/Características: Juego enfocado en capturar fotografías de Pokémon en su hábitat.
+Resumen: Documentas la vida salvaje de Pokémon a través de fotografías en una variedad de entornos naturales.
+
+New Pokémon Snap
+Año de salida: 2021
+Generación: Octava
+Consola: Nintendo Switch
+Novedades/Características: Fotografía con entornos dinámicos y Pokémon interactivos.
+Resumen: Exploras la región de Lental investigando el fenómeno Lumini mientras tomas fotos de Pokémon en su hábitat natural.
+
+Pokémon Stadium
+Año de salida: 1998
+Generación: Primera
+Consola: Nintendo 64
+Novedades/Características: Combates en 3D con Pokémon de las primeras generaciones.
+Resumen: Participas en torneos para enfrentarte a entrenadores cada vez más fuertes en épicos combates en 3D.
+
+Pokémon Stadium 2
+Año de salida: 2000
+Generación: Segunda
+Consola: Nintendo 64
+Novedades/Características: Compatibilidad con Pokémon de la Generación II.
+Resumen: Combates y desafíos adicionales que incluyen Pokémon de Johto, con nuevos torneos y minijuegos.
+
+Pokémon Battle Revolution
+Año de salida: 2007
+Generación: Cuarta
+Consola: Nintendo Wii
+Novedades/Características: Batallas personalizadas en 3D con conexión a Nintendo DS.
+Resumen: Compites en diversas coliseos personalizables mientras utilizas equipos transferidos desde tus juegos principales.
+
+Pokémon Café ReMix
+Año de salida: 2020
+Generación: Octava
+Consola: Nintendo Switch, móviles
+Novedades/Características: Juego de rompecabezas en un entorno temático de cafetería.
+Resumen: Resuelves puzles para expandir tu cafetería y atraer a Pokémon con un servicio excepcional.
+
+Pokémon Conquest
+Año de salida: 2012
+Generación: Quinta
+Consola: Nintendo DS
+Novedades/Características: Combina estrategia y batallas por turnos en un mundo inspirado en el Japón feudal.
+Resumen: Lideras guerreros Pokémon para unificar la región de Ransei y evitar la resurrección de un Pokémon legendario.
+
+Pokémon Quest
+Año de salida: 2018
+Generación: Séptima
+Consola: Nintendo Switch, móviles
+Novedades/Características: Aventura casual con gráficos cúbicos y mecánicas simplificadas.
+Resumen: Exploras la Isla Rodacubo con Pokémon cúbicos mientras recolectas recursos y mejoras tus habilidades.
+
+Pokémon Unite
+Año de salida: 2021
+Generación: Octava
+Consola: Nintendo Switch, móviles
+Novedades/Características: Juego MOBA con equipos de 5 contra 5.
+Resumen: Participas en combates estratégicos por puntos mientras cooperas con tu equipo para dominar el campo de batalla.
+
+
+
+-- Footer: 
+
+	- Div 1 --> logo 
+	- Div 2 --> politica privacidad / cookis / contacto/direccion(debajo) 
+	- Div 3 --> redes sociales 
+
+
+
+	Marca registrada
+	Enlaces a redes sociales --> poner las redes sociales oficiales de Pokemon (Instagram, Twitter, Youtube) 
+	Enlaces internos hacía páginas de especial interés
+	Logotipos o marcas de reconocido prestigio
+	Aviso legal, política de privacidad, condiciones de contratación, etc
+	Datos de contacto, donde estamos, etc
+	Menú de navegación o mapa del sitio
+
+------------------------------------------------------------------------
+
+Datos a poner en el trabajo escrito: 
+
+- Descripcion del sitio 
+
+
+- Lista d eextras que se añaden, estilo puglins y cosas asi 
+
+	-- Modals --> pestañas emergentes a la hora de hacer click en un stitio. Usado en politica de privacidad, cookies y copyright 
+	-- Etiqueta <strong> --> resalta en negrita el texto que se encuentre 
+	-- transform: scale(X.Y) --> transforma una imagen al tamaño que se indica entre el parentesis, si es 1.5 es aq un 150% si es 1.6 es a 160% 
+	-- sidebar --> 
+	-- !important --> El !important es una regla en CSS que le da la máxima prioridad a un estilo, independientemente de su posición o especificidad en el código. Si usas !important, estás indicando al navegador que ese estilo debe aplicarse sin importar si otros estilos tienen mayor especificidad o son declarados más tarde.
+- URL de la pagina donde se hace el host ---> https://jkorpela.fi/cgi-bin/echo.cgi
+
+
+- Capturas veirficando la validacion de la pag 
+
+
+- NOmbre del documento ProjectML + Alvaro_Ilzarbe
+
+
+
+
