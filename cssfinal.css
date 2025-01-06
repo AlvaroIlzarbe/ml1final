@@ -413,3 +413,32 @@ footer {
 .game-link:hover img {
     transform: scale(1.05);
 }
+
+.content-with-image {
+    margin-top: 20px; 
+}
+
+.text-block {
+    margin-bottom: 20px; 
+    text-align: justify; 
+}
+
+
+.inline-image {
+    max-width: 80%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+p {
+    text-align: justify; 
+}
