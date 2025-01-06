@@ -26,39 +26,42 @@ Tras esto, Nintendo decidió llevar la serie al mercado occidental. El nombre fu
 
 - Conceptos importantes en los Pokemon 
 
-		-Los Pokémon son una clase de criaturas inspiradas en animales reales, insectos, objetos, plantas o criaturas mitológicas con un sistema de evolución lamarckiano.
-		-Los jugadores toman el papel Entrenadores Pokémon y tienen tres objetivos generales:
-			- completar la Pokédex mediante la recopilación de todas las especies de Pokémon disponibles que se encuentran
-			- entrenar un equipo de Pokémon poderosos de aquellos que han atrapado para competir contra otros entrenadores
-			- legar a ganar la Liga Pokémon y convertirse en el campeón regional
-		- La temática de coleccionar, entrenar y luchar están presentes en casi todas las versiones de la franquicia Pokémon, incluidos los videojuegos, las series de anime y manga, y el juego de cartas coleccionables Pokémon.
-		- En la saga principal, el jugador emprenderá un viaje en el que deberá recorrer una región específica del mundo Pokémon. En determinadas ciudades existen una serie de poderosos entrenadores, conocidos como Líderes de Gimnasio, que el entrenador debe derrotar para obtener las medallas de gimnasio y poder progresar.
-		- Una vez que se recogen todas las medallas de la región, el entrenador es elegible para desafiar la Liga Pokémon de la región, donde le esperan cuatro de los mejores entrenadores a los que se deberá enfrentar para obtener el título de Campeón.
-		- La saga también tiene arcos argumentales secundarios: En la mayoría de títulos existe un equipo antagonista, una banda cuyos planes están relacionados con el tráfico, la explotación o el maltrato de Pokémon y que el jugador deberá derrotar. Muchos títulos también implican que el jugador pueda desentrañar misterios sobre la existencia de Pokémon legendarios o míticos
-		- Cada generación diferente de los videojuegos de Pokémon tiene la característica de tener un elemento propio llamado mecánica propia, que cambia de generación a generación. 
-	
+Los Pokémon son criaturas basadas en animales, insectos, plantas, objetos y mitos, que cuentan con un sistema de evolución similar al de Lamarck.
+Los jugadores asumen el rol de Entrenadores Pokémon y tienen tres metas principales:
+Completar la Pokédex recogiendo todas las especies de Pokémon disponibles.
+Entrenar un equipo de Pokémon fuertes para competir contra otros entrenadores.
+Llegar a ganar la Liga Pokémon y convertirse en el campeón de la región.
+La temática de coleccionar, entrenar y luchar se repite en casi todos los medios de la franquicia Pokémon, incluidos los videojuegos, el anime, el manga y el juego de cartas coleccionables.
+En la saga principal, los jugadores inician un viaje por una región del mundo Pokémon, donde deben enfrentar a los Líderes de Gimnasio, entrenadores de alto nivel, para ganar medallas y seguir avanzando.
+Cuando el jugador obtiene todas las medallas, tiene la oportunidad de desafiar la Liga Pokémon, enfrentándose a los mejores entrenadores para lograr el título de Campeón.
+Los juegos suelen incluir subtramas en las que el jugador se enfrenta a equipos antagonistas dedicados al abuso, explotación o tráfico de Pokémon. También hay tramas donde se investigan los Pokémon legendarios o míticos.
+Cada generación de videojuegos de Pokémon introduce nuevas mecánicas y características que se actualizan y varían con cada nueva entrega.
 
 
-- Elementos representativos generales de los juegos 
-		
-		- La figura del entrenador Pokemon
-			- A los usuarios de los videojuegos se los denomina Entrenador Pokémon. Tienen como meta cumplir dos objetivos (en la mayoría de los juegos de Pokémon):
-			- capturar a todas las especies de pokémon disponibles en la región ficticia en donde se encuentra ambientado el juego, y completar así la información de todos los pokémon en el Pokédex // imagen de la pokedex 
-			- por otro lado, deben entrenarlos y enfrentarlos a otros pokémon pertenecientes a otros entrenadores para demostrar sus habilidades, fortaleza, talento y así convertirse en un Maestro Pokémon.
-			- Para lograrlo, los entrenadores pokémon viajan a lo largo y ancho de las regiones del mundo Pokémon, recolectando medallas de gimnasio, que se obtienen tras derrotar a los respectivos líderes de gimnasio, en una batalla en la que tanto el entrenador como el líder de gimnasio enfrentan a sus pokémon para probar sus habilidades especiales en una batalla Pokémon. // poner imagen de medallas a un lado; al opuesto de de arriba 
-		- Tipos de Pokemon 
-			- Existen 18 tipos en los que se organiza a los pokémon que se han ido introduciendo a lo largo de la historia de los propios juegos 
-				- Los tipos acero y siniestro fueron agregados en el año 2000, en los juegos Gold, Silver y Crystal 
-				- el tipo hada fue agregado el 2013 en los juegos Pokémon X e Y.
-				- Un pseudotipo que se presenta en las ultimas generaciones (Escarlata y Purpura) que es el terastral. Este tipo solamente se encuentra disponible y activo mediante la teracristalización que es la mecánica propia del juego
-			- Cada pokémon tiene una cantidad determinada de movimientos o ataques que puede aprender, la cual va variando de una generación a otra. Estos se pueden clasificar por su tipo o elemento (por ejemplo, el ataque trueno es un ataque tipo eléctrico).
-			-Los pokémon también se ordenan y dividen de esta manera, dándole ventajas o desventajas contra otros. Este fenómeno se le conoce comunmente como la tabla de tipos, una tabla representativa donde encontramos 5 valores:  // poner tabla de tipos 
-				- Inmune --- no se ve afectado por el ataque 
-				- Poco eficaz --- representado con daños de 1/2 y 1/4 ; al valor del daño se le hace la operación correspondiente de multiplicarlo por 1/2 o por un 1/4
-				- Neutro --- representado con un daño de x1; no se aplica ningun calculo extra al daño
-				- Eficaz --- representado por un x2; se le aplica un x2 al daño que hace el ataque 
-				- Supereficaz --- representado por un x2; se le aplica un x2 al daño que hace el ataque 
-			- Estos valores que aparecen en la tabla de operaciones, son las denominadas debilidades o resistencias; si un pokemon es debil frente a un determinado ataque recibe más daño (x2 o x4 dependiendo de si es mas daño o mucho mas daño) y su un pokemon es fuerte a un determinado ataque recibe menos daño (1/2 o un 1/4 dependiendo de cuanto sea su nivel de resistencia)
+Elementos representativos generales de los juegos
+La figura del entrenador Pokémon
+
+A los usuarios de los videojuegos se los denomina Entrenador Pokémon. Tienen como meta cumplir dos objetivos (en la mayoría de los juegos de Pokémon):
+Capturar a todas las especies de pokémon disponibles en la región ficticia en donde se encuentra ambientado el juego, y completar así la información de todos los pokémon en el Pokédex. // Imagen de la Pokédex.
+Por otro lado, deben entrenarlos y enfrentarlos a otros pokémon pertenecientes a otros entrenadores para demostrar sus habilidades, fortaleza, talento y así convertirse en un Maestro Pokémon.
+Para lograrlo, los entrenadores pokémon viajan a lo largo y ancho de las regiones del mundo Pokémon, recolectando medallas de gimnasio, que se obtienen tras derrotar a los respectivos líderes de gimnasio, en una batalla en la que tanto el entrenador como el líder de gimnasio enfrentan a sus pokémon para probar sus habilidades especiales en una batalla Pokémon. // Poner imagen de medallas a un lado; al opuesto de lo anterior.
+Tipos de Pokémon
+
+Existen 18 tipos en los que se organiza a los pokémon que se han ido introduciendo a lo largo de la historia de los propios juegos.
+Los tipos acero y siniestro fueron agregados en el año 2000, en los juegos Gold, Silver y Crystal.
+El tipo hada fue agregado en 2013 en los juegos Pokémon X e Y.
+Un pseudotipo que se presenta en las últimas generaciones (Escarlata y Púrpura) es el terastral. Este tipo solamente se encuentra disponible y activo mediante la teracristalización, que es la mecánica propia del juego.
+Cada pokémon tiene una cantidad determinada de movimientos o ataques que puede aprender, la cual va variando de una generación a otra. Estos se pueden clasificar por su tipo o elemento (por ejemplo, el ataque trueno es un ataque tipo eléctrico).
+Los pokémon también se ordenan y dividen de esta manera, dándole ventajas o desventajas contra otros. Este fenómeno se le conoce comúnmente como la tabla de tipos, una tabla representativa donde encontramos 5 valores: // Poner tabla de tipos.
+Inmune: no se ve afectado por el ataque.
+Poco eficaz: representado con daños de 1/2 y 1/4; al valor del daño se le hace la operación correspondiente de multiplicarlo por 1/2 o por 1/4.
+Neutro: representado con un daño de x1; no se aplica ningún cálculo extra al daño.
+Eficaz: representado por un x2; se le aplica un x2 al daño que hace el ataque.
+Supereficaz: representado por un x4; se le aplica un x4 al daño que hace el ataque.
+Estos valores que aparecen en la tabla de operaciones son las denominadas debilidades o resistencias. Si un pokémon es débil frente a un determinado ataque, recibe más daño (x2 o x4 dependiendo de si es más daño o mucho más daño) y si un pokémon es fuerte frente a un determinado ataque, recibe menos daño (1/2 o 1/4 dependiendo de cuánto sea su nivel de resistencia).
+
+
+
 
 - Pokemon Inicial 
 
@@ -449,6 +452,10 @@ Datos a poner en el trabajo escrito:
 	-- transform: scale(X.Y) --> transforma una imagen al tamaño que se indica entre el parentesis, si es 1.5 es aq un 150% si es 1.6 es a 160% 
 	-- sidebar --> 
 	-- !important --> El !important es una regla en CSS que le da la máxima prioridad a un estilo, independientemente de su posición o especificidad en el código. Si usas !important, estás indicando al navegador que ese estilo debe aplicarse sin importar si otros estilos tienen mayor especificidad o son declarados más tarde.
+	--  mb-4 --> bootstrap margin bot 
+
+
+
 - URL de la pagina donde se hace el host ---> https://jkorpela.fi/cgi-bin/echo.cgi
 
 
