@@ -8,6 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header, footer {
@@ -445,40 +446,40 @@ table td:first-child {
 
 
 
-/* Contenedor General */
+
 .image-wrapper {
     position: relative;
-    width: 240px; /* Tamaño fijo del contenedor */
-    height: 240px; /* Tamaño fijo del contenedor */
+    width: 240px; 
+    height: 240px; 
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
 }
    
-/* Contenedor general */
+
 .container {
     position: relative;
     width: 100%;
-    overflow: visible; /* Asegura que no se recorte nada */
+    overflow: visible; 
 }
 
-/* Rodolfo */
+
 .image-wrapper.rodolfo {
     position: relative;
-    width: 240px; /* Tamaño original de la imagen */
+    width: 240px; 
     height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(-20%); /* Ajuste a la izquierda */
-    overflow: visible; /* Permite mostrar todo el contenido */
+    transform: translateX(-20%); 
+    overflow: visible; 
 }
 
-/* Imagen principal de Rodolfo */
+
 .image-wrapper.rodolfo .fangame-img.alternative img {
     position: absolute;
-    width: 240px; /* Tamaño original */
+    width: 240px; 
     height: 240px;
     top: 50%;
     left: 50%;
@@ -488,10 +489,10 @@ table td:first-child {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* Logo de Rodolfo */
+
 .image-wrapper.rodolfo .fangame-img.default img {
     position: relative;
-    width: 100px; /* Tamaño reducido del logo */
+    width: 100px; 
     height: 100px;
     object-fit: cover;
     z-index: 2;
@@ -507,22 +508,22 @@ table td:first-child {
     transform: translate(-50%, -50%);
 }
 
-/* Floragato */
+
 .image-wrapper.floragato {
     position: relative;
-    width: 240px; /* Tamaño original de la imagen */
+    width: 240px; 
     height: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    transform: translateX(-15%); /* Ajuste a la izquierda */
-    overflow: visible; /* Permite mostrar todo el contenido */
+    transform: translateX(-15%); 
+    overflow: visible; 
 }
 
-/* Imagen principal de Floragato */
+
 .image-wrapper.floragato .fangame-img.alternative img {
     position: absolute;
-    width: 240px; /* Tamaño original */
+    width: 240px; 
     height: 240px;
     top: 50%;
     left: 50%;
@@ -532,10 +533,10 @@ table td:first-child {
     transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 }
 
-/* Logo de Floragato */
+
 .image-wrapper.floragato .fangame-img.default img {
     position: relative;
-    width: 100px; /* Tamaño reducido del logo */
+    width: 100px; 
     height: 100px;
     object-fit: cover;
     z-index: 2;
