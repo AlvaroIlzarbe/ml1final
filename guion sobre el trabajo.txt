@@ -293,7 +293,7 @@ Los videojuegos de la saga principal de Pokémon son títulos RPG en los que el 
 
 
 	- juegos oficiales que no son de la saga principal (estilo batel stadium)
-		- en que consisten 	
+		- en que consisten -- Este tipo de juegos corresponde con un compendio de juegos que aportan caracteristicas diferentes de la saga principal. en este tipo de juegos el jugador se ve introducido en una tematica similar de explorar una region nueva enfrentandose al equipo villano, pero a diferencia de los juegos de la saga principal, el jugador no se ve motivado por derrotar a una serie de lideres y el alto mando, su mision principal es derrotar al equipo villano y conseguir salvar al mundo. La diferencia entre estos juegos son las propias tematicas propias que tienen, desde atrapar los pokemon de tus oponentes a atraparlos usando una maquina especial que hace circulos. 
 		Pokémon Colosseum
 Año de salida: 2003
 Generación: Tercera
@@ -453,6 +453,77 @@ Datos a poner en el trabajo escrito:
 	-- sidebar --> 
 	-- !important --> El !important es una regla en CSS que le da la máxima prioridad a un estilo, independientemente de su posición o especificidad en el código. Si usas !important, estás indicando al navegador que ese estilo debe aplicarse sin importar si otros estilos tienen mayor especificidad o son declarados más tarde.
 	--  mb-4 --> bootstrap margin bot 
+	-- Explicación Detallada del Efecto de Desenfoque en CSS
+El efecto de desenfoque en CSS se logra usando la propiedad filter: blur(). Este es un filtro visual que aplica un desenfoque (efecto borroso) a un elemento. En este caso, el desenfoque se aplica a las imágenes cuando el cursor no está sobre ellas. Vamos a desglosar cómo funciona, cómo se usa, para qué se utiliza y cómo hacer el efecto inverso (desenfoque al pasar el cursor).
+
+1. Propiedad filter: blur()
+La propiedad filter en CSS es un conjunto de efectos visuales que puedes aplicar a un elemento, y uno de los efectos más comunes es el desenfoque. Este efecto borroso se controla mediante el valor de blur(px), donde el valor en píxeles (px) define la intensidad del desenfoque.
+
+Sintaxis: filter: blur(5px);
+5px: El número que se pasa dentro de blur() es el radio de desenfoque. A mayor número de píxeles, más fuerte es el desenfoque.
+El desenfoque es acumulativo: a medida que el número de píxeles aumenta, la imagen se vuelve más borrosa.
+2. Cómo se usa el filter: blur() en el código
+En el código que proporcioné:
+
+css
+Copiar código
+/* Por defecto, la imagen está desenfocada */
+.rotate-image img {
+    filter: blur(5px);  /* Aplica el desenfoque de 5px por defecto */
+    transition: filter 0.4s ease;  /* Suaviza el cambio de desenfoque */
+}
+filter: blur(5px): Esto significa que la imagen tendrá un desenfoque de 5 píxeles cuando no esté siendo hoverizada (cuando el cursor no pase sobre ella).
+transition: filter 0.4s ease: Este es un efecto de transición que hace que el cambio entre el estado con desenfoque y el estado nítido (sin desenfoque) sea suave, tomando 0.4 segundos.
+Cuando no se pasa el cursor por encima de la imagen, la propiedad blur asegura que la imagen se vea borrosa.
+
+3. Cómo se usa el filter: blur() al pasar el cursor
+Cuando se pasa el cursor sobre la imagen, se elimina el desenfoque. Esto se consigue con la siguiente regla:
+
+css
+Copiar código
+/* Cuando el cursor está sobre la imagen, se elimina el desenfoque */
+.rotate-image:hover img {
+    filter: blur(0);  /* Elimina el desenfoque */
+}
+filter: blur(0): Esto elimina el desenfoque, haciendo que la imagen se vea nítida.
+También puedes agregar otros efectos como zoom o rotación con transform, pero lo esencial aquí es que el desenfoque se quita y la imagen vuelve a su estado normal.
+4. Cómo funciona la transición del desenfoque
+La propiedad transition permite que el cambio entre el estado desenfocado y nítido no sea brusco, sino suave y gradual. En el código:
+
+css
+Copiar código
+.transition: filter 0.4s ease;
+Esto significa que el cambio de filtro (filter) se realizará en un tiempo de 0.4 segundos con un efecto de transición suave (ease), lo que hace que la imagen pase gradualmente de borroso a nítido y viceversa, en lugar de hacerlo instantáneamente.
+
+5. Para qué se usa el efecto de desenfoque
+El efecto de desenfoque se usa principalmente para crear un enfoque visual en la imagen cuando el cursor está sobre ella. La imagen comienza siendo borrosa (lo que puede ser útil para indicar que el usuario aún no ha interactuado con ella) y se vuelve nítida al pasar el cursor, lo cual es una técnica común en interfaces interactivas. Este tipo de efecto ayuda a atraer la atención hacia la imagen y proporciona una experiencia de usuario más dinámica.
+
+El desenfoque también se puede usar de otras maneras, como en fondos, cajas de texto o iconos, para dar una sensación de profundidad o para hacer que ciertos elementos resalten.
+
+6. Invertir el efecto: Desenfoque al pasar el cursor
+Si deseas que el desenfoque aparezca cuando el cursor está sobre la imagen y no cuando no lo está, simplemente inviertes las reglas de CSS:
+
+Con desenfoque al pasar el cursor:
+css
+Copiar código
+/* Por defecto, la imagen está nítida */
+.rotate-image img {
+    filter: blur(0);  /* Sin desenfoque por defecto */
+    transition: filter 0.4s ease;  /* Suaviza el cambio del filtro */
+}
+
+/* Cuando el cursor está sobre la imagen, se aplica el desenfoque */
+.rotate-image:hover img {
+    filter: blur(5px);  /* Aplica el desenfoque */
+}
+Explicación:
+Por defecto: La imagen está nítida (filter: blur(0)).
+Cuando el cursor pasa sobre la imagen: El desenfoque de 5 píxeles se aplica (filter: blur(5px)), haciendo que la imagen se vuelva borrosa mientras el cursor esté sobre ella.
+Este efecto puede ser útil cuando deseas hacer que la imagen "desaparezca" o se mezcle con el fondo al pasar el cursor sobre ella.
+7. Resumen de cómo funciona el desenfoque
+Por defecto: La imagen está desenfocada (si usas filter: blur(5px)).
+Al pasar el cursor: El desenfoque desaparece (filter: blur(0)), y la imagen se vuelve nítida y puede incluso hacer zoom o rotar.
+El efecto de transición suaviza el cambio entre el desenfoque y la nitidez.
 
 
 
@@ -463,6 +534,124 @@ Datos a poner en el trabajo escrito:
 
 
 - NOmbre del documento ProjectML + Alvaro_Ilzarbe
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+vale ahora quiero que me hagas una pagina que este tocada su aspecto unicamente usando css (nada ni de bootstrap ni javascript) 
+quiero que la pagina tenga lo siguiente: 
+
+	- que son -- Los fangames son juegos no oficiales de Pokemon creados por Fans y para fans sin nigún  tipo de aniomo de lucro. Estos juegos suelen estar creados usando el programa RPG maker, que permite poder introducir, crear o modificar imagenes y o estilos existentes de Pokemon, ya sean propios de las generaciones que dispone el propio programa, modificaciones de otros usuarios o imagenes hechas por uno mismo. Estos juegos suelen aprovechar la creatividad de los fans para ofrecer experiencias únicas, con nuevas regiones, historias, mecánicas de juego, y Pokémon originales (o existentes)
+	- diferentes tipos de juegos de fangame, roguelike y tal (poner esto como una lista enumerada) 
+		- RPG Tradicional 
+			- Caracteristicas: Se inspiran en las bases tradicionales de como se hacen los juegos principales, con sistema de exploración gimnasios, entrenadores y captura de Pokemon 
+			- Ejemplos: Pokemon Uranium o Pokemon Añil 
+			- Enfoque: Crean una experiencia nueva pero fiel a los originales
+		- Roguelike 
+			- Caracteristicas: Género en el cual el jugador atraviesa una serie de mazmorras generadas de manera aleatoria, luchando contra Pokemon, encontrando objetos y gestionando los recursos 
+			- Ejemplos: Pokemon Reminiscencia 
+			- Enfoque: Dificultad elevada, diseño repetible y partidas rápidas. El desafío se basa en tomar decisiones estratégicas y adaptarse a lo impredecible.
+		- HackRooms 
+			- Características: Se basan en modificar ROMs oficiales de los juegos de Pokemon para añadir nuevas historias, más dificultad, regiones, desafios... 
+			- Ejemplos: Pokemon Light Platinum, Pokémon Radical RED 
+			- Enfoque: Aprovechar la base sólida de los juegos originales mientras se expande con nuevas ideas o mejoras (como aumentar la dificultad, gráficos mejorados, y más).
+		- MMORPG 
+			- Caracteristicas: Tipo de juegos que permiten poder conectar a jugadores de todo el mundo, llevando a cabo diferentes tipos de eventos 
+			- Ejemplos: Pokémon MMO 3D.
+			- Enfoque: Experiencias sociales, creando un mundo Pokémon en línea donde los jugadores pueden colaborar o competir.
+		- Survival 
+			- Caracteristicas: Se centra en sobrevivir en un mundo Pokémon peligroso, enfrentando retos de exploración, gestión de recursos y combate intenso.
+			- Ejemplos: Pokémon Reborn
+			- Enfoque: Crear una atmósfera más madura o realista, donde las decisiones son más significativas y el entorno es más hostil
+		- Fusión o Cruce de Géneros
+			- Caracteristicas: Combinan elementos de Pokémon con mecánicas de otros géneros, como plataformas, estrategia en tiempo real o deck-building
+			- Ejemplos: Pokémon Infinite Fusion (mezcla de Pokémon), Pokémon Conquest-like (estrategia)
+			- Enfoque: Innovar al mezclar conceptos de Pokémon con otros estilos de juego, ofreciendo algo completamente distinto.
+
+
+	- Aspectos comunes en los fangames de Pokemon: 
+		- Mecanicas nuevas: Aquí podemos distinguir entre crear nuevas megaevoluciones (tematica implementada en los juegos oficiales) o añadir nuevas megaevoluciones; creacion e implementacion de formas regionales o fakemons (pokemon creados por fans); sistema de habilidades propias 
+		- Graficos personalizados: existe la posibilidad de usar tanto graficos en pixel Art como en graficos 3D, dependiendo del gusto o la facilidad del grupo de creación del propio juego 	
+		- Diferentes niveles de dificultad: Existe la posibilidad de ajustar la dificultad al inicio de la partida de forma manual, para dar mayor o menor nivel de dificultad a esta 
+		- Comunidades activas propias: El desarrollo de estos juegos se hace dentro de comunidades propias en las cuales se retroalimentan y ayudan a conseguir mejorar sus propios juegos 
+
+	- Ejemplos de Fangames : 
+		- Pokemon Umbrekable Ties 
+			- Descripción: Tres amigos de la infancia siempre han querido ser maestros Pokemon. Cuando cumplis los 17 años, decidis ponerlos con la mochila a la espalda y empezar a cumplir con ese sueño, decidiendo viajar por toda la región de Akebia. Gracias a la ayuda de la misteriosa profesora Álama conseguis vuestros pokemon iniciales para desafiar a los líderes de gimnasio mientras que intentas escapar de las manos de la Familia Real. Desentraña estos secretos en una apasionante historia, llena de personajes únicos y del mejor maestro Pokémon, EL GRAN RODOLFO 
+			- Catracteristicas principales: 
+				- Sistema de gimnasios
+				- Actualizacion hasta la novena generación 
+				- Sprites animados 
+				- Historia no lineaol dividida en Arcos 
+				- Protagonista multiple
+				- Logros/Misiones secundarias 
+				- Acompañamiento de tu Pokemon durante la aventura 
+				- Historias y escenas elaboradas
+				- Sistema de ganancia de EXP y LevelCap
+				- Botiquin 
+				- Sistema día-noche 
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+			- Video trailer 
+		- Pokemon Panteon 
+			- Descripción: En la antigua región de Olimpia, el protagonista se embarca en una fascinante aventura bajo la guía del profesor y filósofo Palmiro. Su misión es superar los desafíos de los líderes de las Ágoras, desentrañar sus enigmas y enfrentarse a los estudiantes de la prestigiosa Academia Platena. A lo largo de su viaje, se encontrará con sus rivales de siempre, Lira y Aulo, en una épica travesía llena de retos y descubrimientos.
+			- Catracteristicas principales: 
+				- Una aventura llena de misterios, mitos y leyendas.
+				- Sistema de quest secundarias 
+				- Nuevas formas regionales de Pokemon 
+				- Nuevos personajes
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+			- Video trailer 
+		- Pokemon Shards 
+			- Descripción: 
+En la región de Tenebria, humanos, Pokémon y elfos convivieron en conflicto, lo que desató una guerra de doce años. Los Caballeros Dorados, liderados por un humano y su Pokémon, pusieron fin a la lucha utilizando la magia de un legendario Pokémon para crear un nuevo orden. Para proteger su poder, sellaron su energía en cámaras ocultas al oeste de la región. Siglos después, una nueva amenaza pone en peligro la paz, y el protagonista deberá detenerla mientras persigue su sueño de obtener las medallas de Tenebria. 
+			- Catracteristicas principales: 
+				- Sistema tradicional de lideres de gimnasio 
+				- Nuevas formas regionales y fakemons 
+				- Amplio nivel de dificultad 
+				- Sprites Animados 
+				- Sistema día y noche 
+				- Mecanicas actualizadas hasta 9º generación 
+			- Redes sociales del creador 
+			- Imagen del personaje al lado hablando 
+			- Imagenes del juego en carusel 
+Indicaciones extras que te doy: 
+_ tiene que tener una navbar con los puntos importantes, pero esta tiene qeu estar debajo del header 
+
+
+- el background del main tiene que tener una imagen predeterminada que se llama background0.png 
+- los apartados tienen que tener un background mas oscuro a este: #96c9e3 pero con transparencia, es decir una opacidad reducida 
+- los apartados del main tienen que tener la propiedad border-radius 
+- en los apartados de los ejemplos de fangames tendran esta estructura de tabla: nombre, descripcion, caracteristicas, redes sociales, imagenes del juego; esto hacia abajo y a la derecha la informacion correspondiente en una columna; una tercera columna que sea una imagen circular que se haga zoom (pasando de ser un circulo a un rectangulo) donde sale la imagen de un personaje del juego (esta imagen que tenga de longitud el max de la caja) 
+- en el apartado de diferentes tipos, sigue la misma idea de hacer una tabla con esos datos suministrados pero con el apartado de imagenes, en vez de lo que te dije antes, en este punto concreto al pasar el cursor por encima tienen que rotar 360 grados 
+- como ultima fila de la tabla que me vas a hacer con los diferentes tipos de fangames, va a ser una fila entera para poner imagenes de los juegos 
+
+- todo tiene que estar en ingles 
+- genera el documento html por un lado y el css por otro
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

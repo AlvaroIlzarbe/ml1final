@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background0.png');
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    background-color: #96c9e3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 100px;
+}
+
+header .search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.section {
+    background-color: rgba(150, 201, 227, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin: 20px 0;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #96c9e3;
+}
+
+.rotate-image img {
+    transition: transform 0.5s;
+}
+
+.rotate-image img:hover {
+    transform: rotate(360deg);
+}
+
+footer {
+    background-color: #96c9e3;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+footer .logo img {
+    width: 100px;
+}
+
+footer .footer-links a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+footer .social-media a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    color: #ff4500;
+}

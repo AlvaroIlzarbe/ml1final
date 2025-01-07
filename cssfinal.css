@@ -260,6 +260,9 @@ main {
     z-index: 1;
     box-sizing: border-box;
 }
+#sidebar + .row {
+    margin-left: 0;
+}
 
 
 #sidebar ul {
@@ -284,6 +287,11 @@ main {
     #sidebar {
         width: 100%;
         position: relative;
+    }
+    .offcanvas-start {
+        width: 250px;
+        z-index: 1050;
+        background-color:  #b8e5fc !important;
     }
 
     .main-content {
@@ -441,4 +449,121 @@ footer {
 
 p {
     text-align: justify; 
+}
+
+#logo {
+    max-width: 150px; 
+    width: 100%; 
+    height: auto; 
+}
+
+@media (max-width: 576px) {
+    #logo {
+        max-width: 120px; 
+    }
+}
+@media (max-width: 991px) {
+    #sidebar {
+        display: none !important; 
+    }
+
+    #main-content {
+        margin-right: 0; 
+    }
+
+    
+    #section1, #section2, #section3,#section4, #section5, #section6, #section7, #section8, #section9 {
+        margin: 0 20px; 
+        width: 100%; 
+        box-sizing: border-box; 
+        margin-bottom: 30px; 
+    }
+
+    .content-with-image, .content-with-image2 {
+        flex-direction: column; 
+        align-items: center;    
+    }
+
+    .text-block {
+        margin-right: 0;       
+        margin-bottom: 15px;   
+    }
+
+    .inline-image {
+        margin-top: 10px;      
+    }
+}
+
+
+@media (min-width: 992px) {
+    #section1, #section2, #section3,#section4, #section5, #section6, #section7, #section8, #section9  {
+        margin: 0 auto; 
+        max-width: 80%; 
+        padding: 20px;  
+        margin-right: 22.5%;
+        margin-bottom: 10px;
+    }
+
+    .content-with-image:nth-child(odd), .content-with-image2:nth-child(odd) {
+        flex-direction: row-reverse; 
+    }
+    
+    .content-with-image:nth-child(even), .content-with-image2:nth-child(even) {
+        flex-direction: row; 
+    }
+
+    .text-block {
+        margin-right: 20px;  
+    }
+
+    .inline-image {
+        margin-top: 0;  
+    }
+}
+
+
+
+@media (max-width: 991px) {
+   
+    .second-table, .third-table {
+        width: 100% !important; 
+        table-layout: fixed;  
+    }
+
+
+    .second-table th, .second-table td,
+    .third-table th, .third-table td {
+        padding: 8px 5px;  
+        font-size: 12px;  
+    }
+
+    
+    .second-table img, .third-table img {
+        max-width: 50px;  
+        height: auto;  
+    }
+
+    
+    .container {
+        margin-top: 30px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .second-table, .third-table {
+        width: 100%;
+    }
+
+    
+    .second-table th, .second-table td,
+    .third-table th, .third-table td {
+        padding: 12px 8px;  
+        font-size: 14px;  
+    }
+
+   
+    .second-table img, .third-table img {
+        max-width: 80px;  
+    }
 }

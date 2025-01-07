@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Fangames</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body style="background-image: url('images/background.jpg'); background-size: cover;">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Fangames</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#what-are">What are Fangames?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#types">Types of Fangames</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#similarities">Similarities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#examples">Examples</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="container-fluid d-flex justify-content-between align-items-center p-4 text-white">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo" width="100">
+        </div>
+        <div class="pokemon-info">
+            <h3>Explore Pokémon Fangames</h3>
+        </div>
+        <div class="search-bar">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search Pokémon" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+
+    <!-- What are Fangames -->
+    <section id="what-are" class="container my-5">
+        <h4>What are Fangames?</h4>
+        <p>Fangames are unofficial Pokémon games created by fans for fans without any profit motive. These games are usually created using RPG Maker, allowing users to introduce, create, or modify Pokémon images and styles, either from existing generations or custom designs. These games typically leverage the creativity of fans to offer unique experiences, including new regions, stories, game mechanics, and original (or existing) Pokémon.</p>
+    </section>
+
+    <!-- Types of Fangames -->
+    <section id="types" class="container my-5">
+        <h4>Types of Fangames</h4>
+        <p>Fangames can belong to various genres. Here are some common types:</p>
+        <ul class="list-group">
+            <li class="list-group-item">
+                <strong>Traditional RPG</strong>
+                <ul>
+                    <li>Characteristics: They are inspired by the traditional foundations of the mainline games, with systems for exploration, gyms, trainers, and Pokémon capture.</li>
+                    <li>Examples: Pokémon Uranium, Pokémon Azure</li>
+                    <li>Focus: Creating a new experience while staying faithful to the original games.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>Roguelike</strong>
+                <ul>
+                    <li>Characteristics: The player traverses randomly generated dungeons, fighting Pokémon, finding items, and managing resources.</li>
+                    <li>Examples: Pokémon Reminiscence</li>
+                    <li>Focus: High difficulty, repeatable design, and quick matches. The challenge lies in making strategic decisions and adapting to the unpredictable.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>HackROMs</strong>
+                <ul>
+                    <li>Characteristics: These modify official Pokémon ROMs to add new stories, higher difficulty, regions, challenges, etc.</li>
+                    <li>Examples: Pokémon Light Platinum, Pokémon Radical RED</li>
+                    <li>Focus: Taking advantage of the original game's solid base while expanding it with new ideas or improvements (e.g., increased difficulty, improved graphics, and more).</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>MMORPG</strong>
+                <ul>
+                    <li>Characteristics: Games that allow players to connect with others worldwide, featuring different events.</li>
+                    <li>Examples: Pokémon MMO 3D</li>
+                    <li>Focus: Social experiences, creating an online Pokémon world where players can collaborate or compete.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>Survival</strong>
+                <ul>
+                    <li>Characteristics: Focuses on surviving in a dangerous Pokémon world, facing challenges related to exploration, resource management, and intense combat.</li>
+                    <li>Examples: Pokémon Reborn</li>
+                    <li>Focus: Creating a more mature or realistic atmosphere, where decisions are more significant and the environment is more hostile.</li>
+                </ul>
+            </li>
+            <li class="list-group-item">
+                <strong>Fusion or Genre Crossovers</strong>
+                <ul>
+                    <li>Characteristics: Combines elements of Pokémon with other genres like platformers, real-time strategy, or deck-building.</li>
+                    <li>Examples: Pokémon Infinite Fusion (Pokémon mix), Pokémon Conquest-like (strategy)</li>
+                    <li>Focus: Innovating by blending Pokémon with other game styles, offering something completely different.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Similarities (Optional Section) -->
+    <section id="similarities" class="container my-5">
+        <h4>Similarities Between Fangames and Official Games</h4>
+        <p>Fangames often share many similarities with official Pokémon games, including:</p>
+        <ul class="list-group">
+            <li class="list-group-item">Exploration-based mechanics</li>
+            <li class="list-group-item">Battle systems involving Pokémon</li>
+            <li class="list-group-item">Gym battles and badge collection</li>
+            <li class="list-group-item">Capture, train, and evolve Pokémon</li>
+        </ul>
+    </section>
+
+    <!-- Examples Section -->
+    <section id="examples" class="container my-5">
+        <h4>Examples of Fangames</h4>
+        <p>Here are some examples of popular fangames that have been created by the community:</p>
+
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="images/pokemon_uranium.jpg" class="card-img-top" alt="Pokémon Uranium">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokémon Uranium</h5>
+                        <p class="card-text">A fan-made Pokémon game that features a new region and original Pokémon.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="images/pokemon_radical_red.jpg" class="card-img-top" alt="Pokémon Radical Red">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokémon Radical RED</h5>
+                        <p class="card-text">A ROM hack that increases difficulty and offers more strategic gameplay.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="images/pokemon_mmo.jpg" class="card-img-top" alt="Pokémon MMO 3D">
+                    <div class="card-body">
+                        <h5 class="card-title">Pokémon MMO 3D</h5>
+                        <p class="card-text">An online multiplayer Pokémon game where players can interact with each other in real time.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

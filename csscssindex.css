@@ -1,0 +1,588 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header, footer {
+    background-color: #96c9e3;
+    color: white;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 190px;
+}
+
+header .pokemon-info h2 {
+    margin: 0;
+    font-size: 64px;
+}
+
+header .search-bar form {
+    display: flex;
+}
+
+header .search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+header .search-bar button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+header .search-bar button:hover {
+    background-color: #45a049;
+}
+
+
+.navbar {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    background-size: cover;
+    padding: 20px;
+}
+
+.section {
+    background-color: rgba(150, 201, 227, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.rotate-image img {
+    transition: transform 1s;
+}
+
+.rotate-image:hover img {
+    transform: rotate(360deg);
+}
+
+
+.game-carousel img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.fangame .game-carousel {
+    display: flex;
+    overflow-x: auto;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #87CEFA;
+    color: white;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.fangame {
+    margin-bottom: 30px; 
+    padding: 20px;
+    background-color: rgba(150, 201, 227, 0.8); 
+    border-radius: 10px;
+}
+
+.fangame h3 {
+    margin-bottom: 15px; 
+}
+
+
+
+
+
+
+footer {
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+}
+
+#footer-logo img {
+    height: 50px;
+}
+
+#footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#privacity {
+    margin-bottom: 10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.PP {
+    font-size: 14px;
+    color: #bdc3c7;
+}
+
+#SocialNetworks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#SN {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#SocialNetworks a {
+    margin-right: 10px;
+}
+
+#SocialNetworks img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-content {
+    font-family: Arial, sans-serif;
+}
+
+.close-btn {
+    font-size: 28px;
+    font-weight: bold;
+    color: #aaa;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: black;
+}
+
+
+#modalPP:target,
+#modalCookies:target,
+#modalContact:target,
+#modalCopy:target {
+    display: block;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+
+
+
+
+
+.fangame-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+
+.fangame-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+
+#umbrekable-default:checked ~ table tr:first-child td.image-column label[for="umbrekable-default"] img,
+#panteon-default:checked ~ table tr:first-child td.image-column label[for="panteon-default"] img,
+#shards-default:checked ~ table tr:first-child td.image-column label[for="shards-default"] img {
+    display: inline-block;
+}
+
+
+#umbrekable-changed:checked ~ table tr:first-child td.image-column label[for="umbrekable-changed"] img,
+#panteon-changed:checked ~ table tr:first-child td.image-column label[for="panteon-changed"] img,
+#shards-changed:checked ~ table tr:first-child td.image-column label[for="shards-changed"] img {
+    display: inline-block;
+}
+
+
+#umbrekable-changed:checked ~ table tr:first-child td.image-column label[for="umbrekable-default"] img,
+#panteon-changed:checked ~ table tr:first-child td.image-column label[for="panteon-default"] img,
+#shards-changed:checked ~ table tr:first-child td.image-column label[for="shards-default"] img {
+    display: none;
+}
+
+.fangame-img:hover {
+    transform: scale(1.1);
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table td.image-column {
+    text-align: center;
+}
+
+table td:first-child {
+    font-weight: bold;
+}
+
+
+
+.rotate-image img {
+    width: 100px;  
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%;  
+    transition: transform 0.4s ease, border-radius 0.4s ease, filter 0.4s ease;  
+    filter: blur(5px);  
+}
+
+
+.rotate-image:hover img {
+    transform: scale(1.3) rotate(360deg);  
+    border-radius: 0%;  
+    filter: blur(0);  
+}
+
+
+.rotate-image img:not(:hover) {
+    filter: blur(5px);  
+}
+
+
+
+
+.fangame a img {
+    width: 30px; 
+    height: auto;  
+    transition: transform 0.3s ease;  
+    margin-right: 25px;
+    margin-left: 5px;
+}
+
+
+.fangame a img:hover {
+    transform: scale(1.1);  
+}
+
+
+
+.image-wrapper {
+    position: relative;
+    width: 100%;  
+    height: 100%; 
+}
+
+
+.default-image {
+    display: block;  
+    width: 50%;      
+    margin: 0 auto;  
+    transition: transform 0.3s ease, opacity 0.3s ease; 
+}
+
+
+.changed-image {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;  
+    height: 100%; 
+    object-fit: cover; 
+    opacity: 0;  
+    transition: opacity 0.3s ease; 
+}
+
+
+
+
+/* Contenedor General */
+.image-wrapper {
+    position: relative;
+    width: 240px; /* Tamaño fijo del contenedor */
+    height: 240px; /* Tamaño fijo del contenedor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+   
+/* Contenedor general */
+.container {
+    position: relative;
+    width: 100%;
+    overflow: visible; /* Asegura que no se recorte nada */
+}
+
+/* Rodolfo */
+.image-wrapper.rodolfo {
+    position: relative;
+    width: 240px; /* Tamaño original de la imagen */
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-20%); /* Ajuste a la izquierda */
+    overflow: visible; /* Permite mostrar todo el contenido */
+}
+
+/* Imagen principal de Rodolfo */
+.image-wrapper.rodolfo .fangame-img.alternative img {
+    position: absolute;
+    width: 240px; /* Tamaño original */
+    height: 240px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Logo de Rodolfo */
+.image-wrapper.rodolfo .fangame-img.default img {
+    position: relative;
+    width: 100px; /* Tamaño reducido del logo */
+    height: 100px;
+    object-fit: cover;
+    z-index: 2;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.image-wrapper.rodolfo:hover .fangame-img.default img {
+    opacity: 0;
+}
+
+.image-wrapper.rodolfo:hover .fangame-img.alternative img {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+/* Floragato */
+.image-wrapper.floragato {
+    position: relative;
+    width: 240px; /* Tamaño original de la imagen */
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-15%); /* Ajuste a la izquierda */
+    overflow: visible; /* Permite mostrar todo el contenido */
+}
+
+/* Imagen principal de Floragato */
+.image-wrapper.floragato .fangame-img.alternative img {
+    position: absolute;
+    width: 240px; /* Tamaño original */
+    height: 240px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+/* Logo de Floragato */
+.image-wrapper.floragato .fangame-img.default img {
+    position: relative;
+    width: 100px; /* Tamaño reducido del logo */
+    height: 100px;
+    object-fit: cover;
+    z-index: 2;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.image-wrapper.floragato:hover .fangame-img.default img {
+    opacity: 0;
+}
+
+.image-wrapper.floragato:hover .fangame-img.alternative img {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+.carousel-container {
+    width: 80%; 
+    margin: 0 auto; 
+    overflow: hidden; 
+    display: flex; 
+}
+
+
+.carousel {
+    display: flex;
+    gap: 50px; 
+}
+
+
+.carousel-image img {
+    width: 140px; 
+    height: 110px; 
+    object-fit: cover;
+    display: block;
+}
+
+
+
+
+
+
